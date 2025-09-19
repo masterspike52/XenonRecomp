@@ -2243,7 +2243,7 @@ const struct powerpc_opcode powerpc_opcodes[] = {
 { "mullhw",	XRC(4,424,0),  X_MASK,	PPC405 | PPC440,	{ RT, RA, RB }, PPC_INST_MULLHW },
 { "mullhw.",	XRC(4,424,1),  X_MASK,	PPC405 | PPC440,	{ RT, RA, RB }, PPC_INST_MULLHW },
 { "mullhwu",	XRC(4,392,0),  X_MASK,	PPC405 | PPC440,	{ RT, RA, RB }, PPC_INST_MULLHWU },
-{ "mullhwu.",	XRC(4,392,1),  X_MASK,	PPC405 | PPC440,	{ RT, RA, RB }, PPC_INST_MULLHWU },
+//{ "mullhwu.",	XRC(4,392,1),  X_MASK,	PPC405 | PPC440,	{ RT, RA, RB }, PPC_INST_MULLHWU },
 { "nmacchw",	XO(4,174,0,0), XO_MASK,	PPC405 | PPC440,	{ RT, RA, RB }, PPC_INST_NMACCHW },
 { "nmacchw.",	XO(4,174,0,1), XO_MASK,	PPC405 | PPC440,	{ RT, RA, RB }, PPC_INST_NMACCHW },
 { "nmacchwo",	XO(4,174,1,0), XO_MASK,	PPC405 | PPC440,	{ RT, RA, RB }, PPC_INST_NMACCHWO },
